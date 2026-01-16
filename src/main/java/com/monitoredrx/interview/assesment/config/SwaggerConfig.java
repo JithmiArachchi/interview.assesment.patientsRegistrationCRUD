@@ -18,7 +18,7 @@ public class SwaggerConfig {
                 .description("Interview Assessment API")
                 .contact(new Contact()
                         .name("Jithmi S. Arachchi")
-                        
+
                 ) );
     }
 }
