@@ -12,7 +12,7 @@ useEffect(() => {
 
   const columns = [
     { field: "firstName", headerName: "First Name", width: 120 },
-    { field: "lastName", headerName: "Last Name", width: 120 },
+    { field: "lastName", headerName: "Sure Name", width: 120 },
     { field: "address", headerName: "Address", width: 200, editable: false },
     { field: "city", headerName: "City", width: 150 },
     { field: "state", headerName: "State", width: 150 },
