@@ -2,9 +2,13 @@ name: Spring Boot Docker CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - docket_test1
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - docket_test1
 
 jobs:
   build-and-push:
