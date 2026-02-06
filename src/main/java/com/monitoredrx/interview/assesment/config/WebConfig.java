@@ -12,9 +12,6 @@ public class WebConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/dashboard")
                 .setViewName("forward:/index.html");
-
-
-
     }
 
     @Override
