@@ -16,6 +16,7 @@ function WebSocketComponent() {
     return () => socket.close();
   }, []);
 
+
   const send = () => {
     if (ws && message) {
       ws.send(message);
